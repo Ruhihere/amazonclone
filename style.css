@@ -8,12 +8,43 @@
     height: 60px;
     background-color: black;
     color: white;
+    display: flex;
+    align-items: center;
 }
 .nav-logo {
     height: 50px;
     width: 100px;
+
     
 }
 .logo {
     background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.border {
+    border: 1.5px solid transparent;
+
+}
+.border:hover{
+    border:1.5px solid white
+}
+/** box 2 styling **/
+.add-deliver {
+color:#cccccc ;
+font: size 0.05rem;
+margin-left: 15px;
+}
+.add-ind{
+font-size: 1rem;
+margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/** box 3 styling**/
+.nav-search{
+    display: flex;
 }
